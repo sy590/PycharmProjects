@@ -26,4 +26,10 @@ _xtick_labels = ["10点,{}分".format(i) for i in range(60)]
 _xtick_labels += ["11 点,{}分".format(i) for i in range(60)]
 # 取步长，数字和字符串一一对应，数据的长度一样
 plt.xticks(_x[::3], _xtick_labels[::3], rotation=90)  # FontProperties=my_font) #ratation旋转的度数
+
+# 添加legend
+plt.xlabel("时间")
+plt.ylabel('温度 单位（℃）')
+plt.title("10点到12点每分钟的气温变化情况")
+
 plt.show()

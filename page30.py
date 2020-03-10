@@ -21,8 +21,6 @@ _xtick_labels = ["{}.岁".format(i) for i in x]
 plt.xticks(x, _xtick_labels)
 plt.yticks(range(0, 7))
 
-
-
 # 绘制网格
 plt.grid(alpha=0.4,linestyle=":")
 
@@ -39,3 +37,5 @@ plt.plot(x, y_3, label="同桌2", color="PaleVioletRed",linestyle="-.")
 plt.legend()
 
 plt.show()
+
+# matplotlib 可以画的图的种类 https://matplotlib.org/gallery/index.html
